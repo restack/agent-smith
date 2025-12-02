@@ -1,12 +1,17 @@
 # agent-smith
 
+<div align="center">
+<img src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2018/06/Agent-Smith-replicated.jpg?q=50&fit=crop&w=1232&h=693&dpr=1.5" width="50%" />
+</div>
+
+
 ## 🤖 Bot-in-the-Loop Engineering
 
 **From Coding to Steering: An Intent-Driven Development Paradigm**
 
 Modern software projects are shifting from *Human-in-the-Loop* coding to a new paradigm: **Bot-in-the-Loop**. In this model, the "Developer" evolves into an "Architect," operating at a higher level of abstraction—expressing intent through GitHub Issues—while autonomous agents execute the implementation lifecycle.
 
-**Agent-Smith** is an autonomous DevOps agent designed for Kubernetes Homelabs. It doesn't just write code; it owns the delivery pipeline—from commit to deployment verification.
+**Agent-Smith** is an autonomous DevOps agent designed for Kubernetes [Homelabs](https://github.com/ziwon/homelab). It doesn't just write code; it owns the delivery pipeline—from commit to deployment verification.
 
 ### Core Philosophy
 
@@ -15,7 +20,7 @@ Instead, the workflow follows this cycle:
 
 1.  **Intent:** You define the *What* (GitHub Issue).
 2.  **Execution:** The Agent determines the *How* (Code, Test, Refactor).
-3.  **Delegation:** The Agent leverages specialized bots (e.g., `restack-ai`) for safe GitOps delivery.
+3.  **Delegation:** The Agent leverages specialized bots (e.g., `[restack-ai](https://github.com/apps/restack-ai)`) for safe GitOps delivery.
 4.  **Verification:** The Agent closes the loop by validating infrastructure health (Argo CD).
 
 -----
