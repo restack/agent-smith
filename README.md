@@ -20,7 +20,7 @@ Instead, the workflow follows this cycle:
 
 1.  **Intent:** You define the *What* (GitHub Issue).
 2.  **Execution:** The Agent determines the *How* (Code, Test, Refactor).
-3.  **Delegation:** The Agent leverages specialized bots (e.g., `[restack-ai](https://github.com/apps/restack-ai)`) for safe GitOps delivery.
+3.  **Delegation:** The Agent leverages specialized bots (e.g., [restack-ai](https://github.com/apps/restack-ai)) for safe GitOps delivery.
 4.  **Verification:** The Agent closes the loop by validating infrastructure health (Argo CD).
 
 -----
